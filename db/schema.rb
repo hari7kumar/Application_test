@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20170223174048) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "roles", force: :cascade do |t|
     t.string   "name"
     t.boolean  "checked"
