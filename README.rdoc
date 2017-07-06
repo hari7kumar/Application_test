@@ -1,0 +1,7 @@
+== README
+
+* bundle install
+
+* rake db:migrate
+
+Create roles and users from navigation links
